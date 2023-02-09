@@ -1,0 +1,22 @@
+{
+  "name": "Mailgun_Sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.7.8",
+    "nodemailer-mailgun-transport": "^2.1.5",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
